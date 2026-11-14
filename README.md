@@ -4,7 +4,7 @@ Build a complete, responsive, production-ready web application called **"TravelM
 - **Goal:** Help travellers (tourists, students, first-time visitors) check a route and get a realistic, transparent local auto-rickshaw or e-rickshaw fare estimate before negotiating an unmetered ride[cite: 5, 9, 10].
 - **Core Rule:** Clearly display an estimate disclaimer everywhere ("Indicative estimate only — not an official tariff or guaranteed price")[cite: 11, 28]. Never guess or display a fare if a route or distance is invalid[cite: 16, 24].
 
-### 2. Tech Stack & Architecture
+## 2. Tech Stack & Architecture
 - **Frontend:** Clean, modular HTML5, CSS3, and Vanilla JavaScript (separate `index.html`, `style.css`, and `app.js` / `fareEngine.js` so map, routing, and fare logic are cleanly decoupled)[cite: 12, 16].
 - **Map & Geocoding:** Leaflet.js with OpenStreetMap (OSM) tiles[cite: 12], plus Nominatim API for location autocomplete/geocoding (biased toward Indian cities, defaulting to Agra, Uttar Pradesh, e.g., *Agra Cantt Railway Station* to *Taj Mahal*).
 - **Routing & Distance:** Project OSRM public routing API (`router.project-osrm.org`) to fetch actual road geometry (polyline) and exact road distance in meters, converted to kilometers (`km`)[cite: 11, 12].
