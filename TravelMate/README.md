@@ -284,12 +284,6 @@ TravelMate respects user privacy:
 
 ---
 
-## 📄 License
-
-MIT License — Free for personal, educational, and commercial use.
-
----
-
 <p align="center">
   Built with ❤️ for transparent, fair travel in India<br>
   <strong>TravelMate</strong> — Know your fare before the ride 🛺
