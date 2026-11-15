@@ -14,7 +14,7 @@
 
 const App = (() => {
 
-  // ── Constants ───────────────────────────────────────────────────
+  // ──  Constants ───────────────────────────────────────────────────
   const NOMINATIM_URL  = 'https://nominatim.openstreetmap.org/search';
   const OSRM_URL       = 'https://router.project-osrm.org/route/v1/driving';
   const DEBOUNCE_MS    = 400;
