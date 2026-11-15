@@ -32,7 +32,7 @@ SCHEMA_SQL = os.path.join(BASE_DIR, "schema.sql")
 app = Flask(__name__, static_folder=BASE_DIR, static_url_path="")
 
 
-# ── Database Helpers ────────────────────────────────────────────
+# ──  Database Helpers ────────────────────────────────────────────
 def get_db():
     """Open a database connection for the current request."""
     if "db" not in g:
@@ -64,7 +64,7 @@ def init_db():
         db.close()
 
 
-# ── Load Rates ──────────────────────────────────────────────────
+# ──  Load Rates ──────────────────────────────────────────────────
 def load_rates():
     """Load fare rates from JSON file."""
     try:
